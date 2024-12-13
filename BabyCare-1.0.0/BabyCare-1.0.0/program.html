@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Empresa S.A</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar start -->
+    <div class="container-fluid border-bottom bg-light wow fadeIn" data-wow-delay="0.1s">
+        <div class="container topbar bg-primary d-none d-lg-block py-2" style="border-radius: 0 40px">
+            <div class="d-flex justify-content-between">
+                <div class="top-info ps-2">
+                    <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#"
+                            class="text-white">Cartago, Costa Rica</a></small>
+                    <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#"
+                            class="text-white">empresaSA@gmail.com</a></small>
+                </div>
+                <div class="top-link pe-2">
+                    <a href="" class="btn btn-light btn-sm-square rounded-circle"><i
+                            class="fab fa-facebook-f text-secondary"></i></a>
+                    <a href="" class="btn btn-light btn-sm-square rounded-circle"><i
+                            class="fab fa-twitter text-secondary"></i></a>
+                    <a href="" class="btn btn-light btn-sm-square rounded-circle"><i
+                            class="fab fa-instagram text-secondary"></i></a>
+                    <a href="" class="btn btn-light btn-sm-square rounded-circle me-0"><i
+                            class="fab fa-linkedin-in text-secondary"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container px-0">
+            <nav class="navbar navbar-light navbar-expand-xl py-3">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-primary display-6">Empresa<span class="text-secondary">S.A</span></h1>
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Alumnos</a>
+                        <a href="service.html" class="nav-item nav-link">Personal</a>
+                        <a href="program.html" class="nav-item nav-link">Calendario</a>
+                        <a href="event.html" class="nav-item nav-link">Inventario</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Otros</a>
+                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                <a href="blog.html" class="dropdown-item">Nutrición</a>
+                                <a href="team.html" class="dropdown-item">Finanzas</a>
+                                <a href="testimonial.html" class="dropdown-item">Nose </a>
+                                <a href="404.html" class="dropdown-item">Sobre nosotros</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="d-flex me-4">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center">
+                            <a href="" class="position-relative wow tada" data-wow-delay=".9s">
+                                <i class="fa fa-phone-alt text-primary fa-2x me-4"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-3 border-end border-primary">
+                            <span class="text-primary">Have any questions?</span>
+                            <a href="#"><span class="text-secondary">+506 2545-7896</span></a>
+                        </div>
+                    </div>
+                    <button class="btn-search btn btn-primary btn-md-square rounded-circle" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fas fa-search text-white"></i></button>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center mb-0">
+
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+ <!-- Events Start -->
+ <div class="container-fluid events py-5 bg-light">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+            <h4
+                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">
+                Nuestra Planificación</h4>
+            <h1 class="mb-5 display-3">Próximas Actividades y Eventos</h1>
+        </div>
+        <div class="row g-5 justify-content-center">
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                <div class="events-item bg-primary rounded">
+                    <div class="events-inner position-relative">
+                        <div class="events-img overflow-hidden rounded-circle position-relative">
+                            <img src="img/event-1.jpg" class="img-fluid w-100 rounded-circle" alt="Imagen">
+                            <div class="event-overlay">
+                                <a href="img/event-1.jpg" data-lightbox="event-1"><i
+                                        class="fas fa-search-plus text-white fa-2x"></i></a>
+                            </div>
+                        </div>
+                        <div class="px-4 py-2 bg-secondary text-white text-center events-rate">5 Enero</div>
+                        <div class="d-flex justify-content-between px-4 py-2 bg-secondary">
+                            <small class="text-white"><i class="fas fa-calendar me-1 text-primary"></i> 10:00am -
+                                12:00pm</small>
+                            <small class="text-white"><i class="fas fa-map-marker-alt me-1 text-primary"></i> Jardín
+                                Infantil</small>
+                        </div>
+                    </div>
+                    <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
+                        <a href="#" class="h4">Taller de Música y Dibujo</a>
+                        <p class="mb-0 mt-3">Un espacio donde los niños podrán disfrutar de actividades creativas y
+                            educativas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.3s">
+                <div class="events-item bg-primary rounded">
+                    <div class="events-inner position-relative">
+                        <div class="events-img overflow-hidden rounded-circle position-relative">
+                            <img src="img/event-2.jpg" class="img-fluid w-100 rounded-circle" alt="Imagen">
+                            <div class="event-overlay">
+                                <a href="img/event-3.jpg" data-lightbox="event-1"><i
+                                        class="fas fa-search-plus text-white fa-2x"></i></a>
+                            </div>
+                        </div>
+                        <div class="px-4 py-2 bg-secondary text-white text-center events-rate">10 Enero</div>
+                        <div class="d-flex justify-content-between px-4 py-2 bg-secondary">
+                            <small class="text-white"><i class="fas fa-calendar me-1 text-primary"></i> 3:00pm -
+                                5:00pm</small>
+                            <small class="text-white"><i class="fas fa-map-marker-alt me-1 text-primary"></i> Jardín
+                                Infantil</small>
+                        </div>
+                    </div>
+                    <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
+                        <a href="#" class="h4">Por qué necesitamos estudiar</a>
+                        <p class="mb-0 mt-3">Un taller interactivo donde padres y niños aprenderán sobre la
+                            importancia de la educación temprana.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.5s">
+                <div class="events-item bg-primary rounded">
+                    <div class="events-inner position-relative">
+                        <div class="events-img overflow-hidden rounded-circle position-relative">
+                            <img src="img/event-3.jpg" class="img-fluid w-100 rounded-circle" alt="Imagen">
+                            <div class="event-overlay">
+                                <a href="img/event-3.jpg" data-lightbox="event-1"><i
+                                        class="fas fa-search-plus text-white fa-2x"></i></a>
+                            </div>
+                        </div>
+                        <div class="px-4 py-2 bg-secondary text-white text-center events-rate">15 Enero</div>
+                        <div class="d-flex justify-content-between px-4 py-2 bg-secondary">
+                            <small class="text-white"><i class="fas fa-calendar me-1 text-primary"></i> 9:00am -
+                                11:00am</small>
+                            <small class="text-white"><i class="fas fa-map-marker-alt me-1 text-primary"></i> Jardín
+                                Infantil</small>
+                        </div>
+                    </div>
+                    <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
+                        <a href="#" class="h4">Conciencia sobre la Salud Infantil</a>
+                        <p class="mb-0 mt-3">Actividad para padres y niños sobre la importancia de la salud y el
+                            bienestar infantil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Events End-->
+<!-- Calendario Interactivo -->
+<div class="container py-5">
+    <h2 class="text-center mb-4">Calendario de Actividades y Eventos</h2>
+    
+    <!-- Filtro para visualizar tipos de eventos -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <label for="eventosTipo" class="form-label">Filtrar por tipo de evento</label>
+            <select id="eventosTipo" class="form-control">
+                <option value="todos">Todos</option>
+                <option value="actividades">Actividades</option>
+                <option value="eventos">Eventos</option>
+                <option value="festivos">Días Festivos</option>
+                <option value="vacaciones">Vacaciones</option>
+                <option value="permisos">Permisos</option>
+            </select>
+        </div>
+        <div class="col-md-6 text-right">
+            <button type="button" class="btn btn-inscribir">Inscribir al Evento</button>
+        </div>
+    </div>
+    
+    <!-- Calendario interactivo -->
+    <div id="calendario">
+        <!-- Aquí se mostraría el calendario dinámicamente, esto es solo un ejemplo visual -->
+        <div class="calendar">
+            <div class="calendar-header">
+                <button class="btn btn-secondary">&lt;</button>
+                <span class="month-name">Diciembre 2024</span>
+                <button class="btn btn-secondary">&gt;</button>
+            </div>
+            <div class="calendar-body">
+                <!-- Días de la semana -->
+                <div class="weekdays">
+                    <div>Lun</div>
+                    <div>Mar</div>
+                    <div>Mié</div>
+                    <div>Jue</div>
+                    <div>Vie</div>
+                    <div>Sáb</div>
+                    <div>Dom</div>
+                </div>
+                <!-- Días del mes con eventos destacados -->
+                <div class="days">
+                    <div class="day">
+                        <span>1</span>
+                        <div class="event-indicator">Actividad</div>
+                    </div>
+                    <div class="day">
+                        <span>2</span>
+                    </div>
+                    <div class="day">
+                        <span>3</span>
+                        <div class="event-indicator">Vacaciones</div>
+                    </div>
+                    <div class="day">
+                        <span>4</span>
+                    </div>
+                    <!-- Más días aquí -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para inscripción a eventos -->
+    <div class="modal fade" id="inscribirModal" tabindex="-1" aria-labelledby="inscribirModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inscribirModalLabel">Inscripción a Evento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="inscripcion_evento.php" method="POST">
+                        <div class="mb-3">
+                            <label for="evento" class="form-label">Seleccionar Evento</label>
+                            <select class="form-control" id="evento" name="evento">
+                                <option value="actividad1">Actividad Extracurricular 1</option>
+                                <option value="evento1">Evento Especial 1</option>
+                                <option value="actividad2">Actividad Extracurricular 2</option>
+                                <option value="evento2">Evento Especial 2</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nombreHijo" class="form-label">Nombre del Niño</label>
+                            <input type="text" class="form-control" id="nombreHijo" name="nombreHijo" placeholder="Ingrese el nombre del niño" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fecha" class="form-label">Fecha del Evento</label>
+                            <input type="date" class="form-control" id="fecha" name="fecha" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Inscribir</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Agregar estilo CSS para el calendario -->
+<style>
+    .calendar {
+        max-width: 100%;
+        border: 1px solid #ee63b9;
+        border-radius: 5px;
+    }
+    .calendar-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #f5f5f5;
+        font-size: 18px;
+    }
+    .calendar-body {
+        padding: 10px;
+    }
+    .weekdays {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        text-align: center;
+        font-weight: bold;
+    }
+    .days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+    }
+    .day {
+        text-align: center;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #f0f0f0;
+        border-radius: 5px;
+    }
+    .event-indicator {
+        margin-top: 5px;
+        font-size: 12px;
+        color: rgba(249, 77, 249, 0.7);
+        background-color: #e9f7ff;
+        padding: 2px 5px;
+        border-radius: 3px;
+    }
+    .btn-inscribir {
+    background-color: #FF69B4; /* Color de fondo rosado (HotPink) */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Ajusta el tamaño del botón si es necesario */
+    border-radius: 5px; /* Opcional: redondear los bordes */
+}
+
+.btn-inscribir:hover {
+    background-color: #FF1493; /* Color rosado más oscuro al pasar el mouse */
+}
+
+</style>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-item">
+                        <h2 class="fw-bold mb-3"><span class="text-primary mb-0">Empresa</span><span
+                                class="text-secondary">S.A</span></h2>
+                        <p class="mb-4">Solo sabrás de qué eres capaz si lo intentas</p>
+                        <div class="border border-primary p-3 rounded bg-light">
+                            <h5 class="mb-3">Registrate</h5>
+                            <div class="position-relative mx-auto border border-primary rounded"
+                                style="max-width: 400px;">
+                                <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text"
+                                    placeholder="Your email">
+                                <button type="button"
+                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 text-white">Registrate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-item">
+                        <div class="d-flex flex-column p-4 ps-5 text-dark border border-primary"
+                            style="border-radius: 50% 20% / 10% 40%;">
+                            <p>Lunes: 8am to 5pm</p>
+                            <p>Martes: 8am to 5pm</p>
+                            <p>Miercoles: 8am to 5pm</p>
+                            <p>Jueves: 8am to 5pm</p>
+                            <p>Viernes: 8am to 5pm</p>
+                            <p>Sabado: Cerrado</p>
+                            <p class="mb-0">Domingo: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-item">
+                        <h4
+                            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">
+                            UBICACIÓN</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <a href="" class="text-body mb-4"><i class="fa fa-map-marker-alt text-primary me-2"></i>
+                                Cartago, Costa Rica</a>
+                            <a href="" class="text-start rounded-0 text-body mb-4"><i
+                                    class="fa fa-phone-alt text-primary me-2"></i>+506 2545-7896</a>
+                            <a href="" class="text-start rounded-0 text-body mb-4"><i
+                                    class="fas fa-envelope text-primary me-2"></i>empresaSA@gmail.com</a>
+                            <div class="footer-icon d-flex">
+                                <a class="btn btn-primary btn-sm-square me-3 rounded-circle text-white" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-3 rounded-circle text-white" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm-square rounded-circle text-white"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-item">
+                        <h4
+                            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">
+                            Nuestra Galeria</h4>
+                        <div class="row g-3">
+                            <div class="col-4">
+                                <div class="footer-galary-img rounded-circle border border-primary">
+                                    <img src="img/galary-1.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-galary-img rounded-circle border border-primary">
+                                    <img src="img/galary-2.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-galary-img rounded-circle border border-primary">
+                                    <img src="img/galary-3.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-galary-img rounded-circle border border-primary">
+                                    <img src="img/galary-4.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-galary-img rounded-circle border border-primary">
+                                    <img src="img/galary-5.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-galary-img rounded-circle border border-primary">
+                                    <img src="img/galary-6.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Empresa
+                            S.A</a>, All right reserved.</span>
+                </div>
+                <div class="col-md-6 my-auto text-center text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Diseñado por <a class="border-bottom" href="https://htmlcodex.com">Grupo 07</a> Keilyn <a
+                        clas="border-bottom" href="https://themewagon.com">Navarro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
